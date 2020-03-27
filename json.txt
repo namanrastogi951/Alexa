@@ -1,0 +1,38 @@
+
+  
+{
+	"testMultiplyIntent": {
+		"session": {
+			"sessionId": "test",
+			"application": {
+				"applicationId": "amzn1.ask.skill.d7ecf6a4-0b52-41e1-8727-716b72f2f673"
+			},
+			"attributes": {},
+			"user": {
+				"userId": "testAccount"
+			},
+			"new": true
+		},
+		"request": {
+			"type": "IntentRequest",
+			"locale": "en-US",
+			"intent": {
+				"name": "GetAnswerIntent",
+				"slots": {
+					"NumTwo": {
+						"name": "NumTwo",
+						"value": "4"
+					},
+					"Operation": {
+						"name": "Operation",
+						"value": "times"
+					},
+					"NumOne": {
+						"name": "NumOne",
+						"value": "3"
+					}
+				}
+			}
+		},
+		"version": "1.0"
+	}
